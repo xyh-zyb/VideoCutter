@@ -11,5 +11,7 @@ python main.py input_file output_file [-time from xx to xx]/[-size xxg/m/k]
 
 
 现存问题：
+
 1、时间计算不够精确，导致最终可能多生成一个空白视频
+
 2、存储占用计算不够精确（因为使用了流复制），导致精确限制到16G以下比较困难，可以在输入参数是将参数改为16282M(≈15.9G)
